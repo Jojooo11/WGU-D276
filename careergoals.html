@@ -1,0 +1,112 @@
+<!--WARNING: THIS IS NOT A RESOURCE FOR CHEATERS.-->
+<!--THIS IS TO PROVIDE INSIGHT TO STUDENTS SEEKING HELP WITH THEIR PA AS IT GIVES AN OUTLINE TO THE HTML CODE.-->
+<!--I AM NOT RESPONSIBLE FOR ANY NEGATIVE OUTCOMES.-->
+<!--YOU HAVE BEEN WARNED-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Insert a title below.-->
+    <title></title>
+    <!--If you like you can insert a favicon that appears as an image within the browsers tab.-->
+    <link rel="icon" href="">
+    <!--Below is where you will link the stylesheet to your HTML that you will complete/fill with CSS.-->
+    <link rel="stylesheet" href="">
+</head>
+<!--Below is the body which will be require for each part of the PA.-->
+
+<body>
+    <!--You must include headers on most of the documents. Also it is good practice to have a header within your HTML documents.-->
+    <header>
+        <!--You will need a h1 element for the PA requirements, I suggest filling the h1 with a title like you see below.-->
+        <h1>My Career Goals</h1>
+        <!--The <p> & <em> elements are required and adds clean text that you can use to label, emphasize, describe or just put general text.-->
+        <p><em></em></p>
+        <!--The <nav> element is another requirement that is simple to implement. I would use to reference links (<a> anchors) to your other HTML documents.-->
+        <nav>
+            <span><a class="nav-link" href="" target="_blank">Resume</a></span>&nbsp;
+            <span><a class="nav-link" href="" target="_blank">Cover Letter</a></span>
+        </nav>
+    </header>
+    <!--Again the <main> is a key component that you will see re-occur throughout this PA. Use it as an area to store your sections that will contain the bulk of your HTML.-->
+    <main>
+        <!--The <section> elements are key and should also have ID attributes that you can reference within <a> elements so the course instructor can see your ability to implement better UX-->
+        <section id="cg-photo">
+            <!--It's important to label a section as its a requirement and it helps the course instructor understand what a particular section is being used for.-->
+            <h2>Photos</h2>
+            <!--<img> is important as its a requirement and helps add visual appeal to your PA. Keep the images relevant to the task.-->
+            <img src="" alt="" width="" height=""><br>
+            <!--VERY IMPORTANT. Please <cite> your images, videos & audio. A general rule of thumb is if you used an external source to populate data within your PA you should cite it.-->
+            <!--Citing your HTML is a requirement and it adds to the professionalism of your HTML. It can also protect you against copyright.-->
+            <cite></cite>
+        </section>
+        <hr>
+        <section id="video">
+            <h2>Videos</h2>
+            <!--Adding videos is simple. Its just like adding images except be sure to add 'controls' as it provides the user functionality to control volume, playback speed, etc.-->
+            <video src="" alt="" controls width=""></video><br>
+            <!--Below is a really good free site for downloading videos. You can sign up for a free account to download a watermarked video. Don't forget to cite your work!-->
+            <cite>https://stock.adobe.com</cite>
+        </section>
+        <hr>
+        <section id="audio">
+            <!--Adding audio is simple. Its just like adding images & videos except be sure to add 'controls' as it provides the user functionality to control volume, playback speed, etc.-->
+            <h2>Audio</h2>
+            <audio src="./Media/making-progress-dan-phillipson-main-version-02-56-10491.mp3" controls></audio><br>
+            <!--Below is a really good website for free audio files you can incorporate into your HTML. Just sign up for a free account to download MP3 files.-->
+            <cite>https://uppbeat.io/music/</cite>
+        </section>
+        <hr>
+        <!--Below is my personal favorite. Creating a form that allows for user input! Please remember this is a reference/outline. It is your responsibility to write your own code.-->
+        <section id="contactForm">
+            <h2>Contact Me</h2>
+            <!--You must use the action="https://wp.zybooks.com/forms-viewer.php" as it will validate your form and is required by the PA objectives-->
+            <form action="https://wp.zybooks.com/forms-viewer.php" method="post" enctype="multipart/form-data">
+                <!--Forms can be quite intricate so do yourself a favor and do some research on them at https://www.w3schools.com/html/html_forms.asp-->
+                <div>
+                    <label for="firstName">First Name</label><br>
+                    <input type="text" name="firstName" id="firstName"><br>
+                    <label for="lastName">Last Name</label><br>
+                    <input type="text" name="lastName" id="lastName"><br>
+                    <label for="companyName">Company</label><br>
+                    <input type="text" name="companyName" id="companyName"><br>
+                    <label for="yourEmail">Email</label><br>
+                    <input type="email" name="yourEmail" id="yourEmail"><br>
+                    <label for="yourPhone">Phone Number</label><br>
+                    <input type="tel" name="yourPhone" id="yourPhone"><br>
+                    <label for="message">Write a Message</label><br>
+                    <textarea name="message" id="message"></textarea><br>
+                    <fieldset>
+                        <legend>Best Contact Time</legend>
+                        <input type="radio" id="am" name="bestTime" value="am">
+                        <label for="am">A.M.</label><br>
+                        <input type="radio" id="pm" name="bestTime" value="pm">
+                        <label for="pm">P.M.</label><br>
+                        <input type="radio" id="anytime" name="bestTime" value="anytime">
+                        <label for="anytime">Anytime</label>
+                    </fieldset><br>
+                    <label for="contactMethod">Preferred Contact Method</label>
+                    <select name="contactMethod" id="contactMethod">
+                        <option value="phone">Phone</option>
+                        <option value="email">Email</option>
+                        <option value="text">Text</option>
+                    </select>
+                    <br><br>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+<br>
+<hr>
+<br>
+<!--Adding a footer is required and is simple to create. Just inlcude some simple links or text that will be displayed at the bottom your webpage.-->
+<!--If you like you can provide links to other HTML documents here like I did.-->
+<footer id="footer">
+    <span><a href="" target="_blank"></a> & <a href="" target="_blank"></a></span>
+</footer>
+
+</html>

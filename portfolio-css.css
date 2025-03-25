@@ -1,0 +1,82 @@
+/*
+WARNING: THIS IS NOT A RESOURCE FOR CHEATERS.
+THIS IS TO PROVIDE INSIGHT TO STUDENTS SEEKING HELP WITH THEIR PA AS IT GIVES AN OUTLINE TO THE HTML CODE.
+I AM NOT RESPONSIBLE FOR ANY NEGATIVE OUTCOMES.
+YOU HAVE BEEN WARNED 
+*/
+
+/* 
+Below is a universal selector which affects ALL elements within an HTML document that provides a foundation for your HTML style.
+*/
+
+* {}
+
+/* 
+Below applys style to the <body> elements across all HTML docs that are linked to this CSS stylesheet.
+*/
+
+body {}
+
+/* h1-3 styling */
+
+h1,
+h2,
+h3 {}
+
+/* <p> styling */
+
+p {}
+
+/* <nav> styling */
+
+nav {}
+
+/* <nav> class attribute styling */
+
+.nav-link {}
+
+/* <nav> hover styling */
+
+nav a:hover {}
+
+/* Form styling with element ID's*/
+
+#contactForm {}
+
+/* Footer styling with element ID's */
+
+#footer {}
+
+/* Un-Ordered list styling without <li> elements */
+
+ul {}
+
+/* Un-Ordered list styling with <li> elements*/
+
+ul li {}
+
+/* Section styling */
+
+section {}
+
+/* <span> styling (this is not required but can add some nice touches. All you truly need to do is add styling to the section but it's up to you! As long as you meet the objectives. */
+
+span {}
+
+/* Heading styling */
+
+h2 {}
+
+/* Form input styling */
+
+input,
+textarea,
+select {}
+
+/* Button styling */
+
+button {}
+
+/* Below can allow a mouse cursor to change the color of a button as you hover over it */
+
+button:hover {}

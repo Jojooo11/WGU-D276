@@ -1,0 +1,113 @@
+<!--WARNING: THIS IS NOT A RESOURCE FOR CHEATERS.-->
+<!--THIS IS TO PROVIDE INSIGHT TO STUDENTS SEEKING HELP WITH THEIR PA AS IT GIVES AN OUTLINE TO THE HTML CODE.-->
+<!--I AM NOT RESPONSIBLE FOR ANY NEGATIVE OUTCOMES.-->
+<!--YOU HAVE BEEN WARNED-->
+<!DOCTYPE html>
+<html lang="en">
+<!--Below contains a typical <head> element structure.-->
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="">
+</head>
+<!--Below contains a typical <body> element structure.-->
+<body>
+    <!--Below are just some simple <span> elements that contains links to sections within this document that you can use.-->
+    <span><a href="#About">About Me</a></span>&nbsp;
+    <span><a href="#Job-1">Job 1</a></span>&nbsp;
+    <span><a href="#Job-2">Job 2</a></span>&nbsp;
+    <span><a href="#XXX">XXX</a></span>&nbsp;
+    <span><a href="#footer">End</a></span>&nbsp;<br><br>
+    <a href="" target="_blank"><img src=""
+            alt="Photo" width="300" height="250"></a><br>
+    <h4>Click to view my XXX!</h4>
+    <div id="showDate"></div>
+    <header>
+        <!--A simple <nav> element that contains some more links to the other HTML document for this PA.-->
+        <h1>John Doe's Resume</h1>
+        <p><em>Click on the links to view my cover letter & career goals.</em></p>
+        <nav>
+            <ul>
+                <li><a class="nav-link" href="" target="_blank">Cover Letter</a></li>
+                <li><a class="nav-link" href="" target="_blank">Career Goals</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--This contains the <main> elements contents that aims at filling data in for the 'resume'-->
+        <section id="About">
+            <h2>Synopsis</h2>
+            <p style="white-space: pre-line;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, cupiditate.
+                 Aperiam excepturi, magnam vitae nisi corporis cum fugit qui id facere omnis, rerum, soluta maxime voluptatibus quae? Adipisci, iste autem!</p>
+        </section>
+        <hr>
+        <section id="#Job-1">
+            <img src="" alt="Logo">
+            <h2>Job 1</h2>
+            <ul>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum odit ullam laborum deleniti perferendis tenetur, eligendi possimus optio? Veritatis reprehenderit rem mollitia a aliquid fuga est deleniti consequuntur. Vel, maiores.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sed ducimus, in dignissimos maiores asperiores doloribus quod eos deserunt aliquid dolores qui mollitia ab reprehenderit. Magnam incidunt aut pariatur delectus?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ex debitis iste porro dolor ea ducimus beatae ullam repudiandae. Odit quasi unde, alias id itaque blanditiis ad impedit ea consequuntur.</li>
+            </ul>
+        </section>
+        <hr>
+        <section id="#Job-2">
+            <img src="" alt="Photo" width="526" height="322">
+            <h2>Job 2</h2>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolores quo quibusdam temporibus quisquam? Aspernatur amet ex a aliquid obcaecati incidunt eum laudantium accusamus corporis at! Ipsam libero excepturi optio.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum hic aspernatur officiis officia quisquam dolore deleniti illum omnis non exercitationem, amet ab rem ducimus iste dicta possimus, esse natus molestias.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed numquam est consectetur! Voluptatem eum molestiae fuga similique, corporis quidem harum soluta. Aperiam officia cum blanditiis iste, nesciunt et earum commodi.</li>
+            </ul>
+        </section>
+        <hr>
+        <!--This section is dedicated solely to the <table> element and its child elements. I used it to represent my certifications, however you can populate it with whatever you choose.-->
+        <section id="Certs">
+            <table>
+                <caption><strong>Certifications</strong></caption>
+                <thead>
+                    <tr>
+                        <th>XXX</th>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                    </tr>
+                    <tr>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <article>
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
+        </article>
+    </main>
+    <footer id="footer">
+        <span><em>Resume<br> <a href="mailto:"><em>EmailMe</em></a></em></span>
+    </footer>
+</body>
+<!--Below is the simpple javascript that Part A requires for the resume. You can use this code to meet the javascript objective.-->
+<script>
+    document.getElementById("showDate").textContent = "Date: " + new Date().toDateString();
+    console.log("Hello World!")
+</script>
+
+</html>
